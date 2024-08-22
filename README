@@ -1,0 +1,102 @@
+# Flask-React Portfolio
+
+## Project Overview
+
+This project is a personal portfolio website built using Flask for the backend and React for the frontend. The portfolio showcases projects, provides a resume, and gives a brief introduction to the developer, Fernando Duffoo. The site features smooth scrolling and a clean, modern design to present your work and credentials professionally.
+
+## Features
+
+- **Responsive Design**: The website is fully responsive, making it accessible on all devices, from desktops to mobile phones.
+- **Smooth Scrolling**: The navigation between sections is smooth and user-friendly, enhancing the browsing experience.
+- **Project Showcase**: A section dedicated to showcasing selected projects, with links to GitHub repositories.
+- **Resume Download**: An easy-to-access section for downloading your resume.
+- **Contact Information**: A section that includes links to social media profiles and a contact email.
+
+## Tech Stack
+
+- **Frontend**: React.js, HTML, CSS
+- **Backend**: Flask (Python)
+- **Routing**: React Router v6
+- **Styling**: Custom CSS
+
+## Installation and Setup
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [Python](https://www.python.org/)
+- [Flask](https://flask.palletsprojects.com/)
+- [npm](https://www.npmjs.com/)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/Flask-React-Portfolio.git
+   cd Flask-React-Portfolio
+
+2. **Backend setup**
+    cd backend
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    pip install -r requirements.txt
+
+    Start the Flask server:
+    flask run
+
+3. **Frontend setup**
+    Navigate to the frontend directory and install the required dependencies:
+    cd ../frontend
+    npm install
+
+    Start the React development server:
+    npm start
+
+4. **Access the website**
+    Flask API: http://localhost:5000
+    React Frontend: http://localhost:3000
+
+## File Structure
+Flask-React-Portfolio/
+│
+├── backend/              # Flask API backend
+│   ├── app.py            # Flask application setup
+│   ├── templates/        # HTML templates
+│   └── static/           # Static files (CSS, JS)
+│
+├── frontend/             # React frontend
+│   ├── src/              # React source files
+│   │   ├── components/   # Reusable React components
+│   │   ├── App.js        # Main App component
+│   │   ├── index.js      # React entry point
+│   │   ├── Header.js     # Header component
+│   │   ├── About.js      # About section
+│   │   ├── Projects.js   # Projects section
+│   │   ├── Resume.js     # Resume section
+│   │   ├── Photo.js      # Photo section
+│   ├── public/           # Public assets
+│   ├── package.json      # Node.js dependencies
+│   └── ...               # Other frontend configuration files
+│
+└── README.md             # Project documentation
+
+## Usage
+Home: A brief introduction and bio.
+Projects: Showcase of selected projects with links to their repositories.
+Resume: A downloadable resume.
+Contact: Links to social media profiles and an email contact option.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Contact
+Feel free to reach out if you have any questions or suggestions:
+
+Email: fernandojduffoo@gmail.com
+LinkedIn: LinkedIn Profile
+csharp
+
+
