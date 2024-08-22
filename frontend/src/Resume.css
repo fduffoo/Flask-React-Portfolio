@@ -1,0 +1,24 @@
+/* Resume.css */
+
+.resume {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .resume h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .resume ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .resume li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
