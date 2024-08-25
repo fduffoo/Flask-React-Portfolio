@@ -4,6 +4,7 @@ import Header from './Header';
 import About from './About';
 import Projects from './Projects';
 import Resume from './Resume';
+import Contact from './Contact';
 import Photo from './Photo';
 import './App.css';
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
       <Photo />
