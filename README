@@ -1,9 +1,5 @@
 # Flask-React Portfolio
 
-## Project Overview
-
-This project is a personal portfolio website built using Flask for the backend and React for the frontend. The portfolio showcases projects, provides a resume, and gives a brief introduction to the developer, Fernando Duffoo. The site features smooth scrolling and a clean, modern design to present your work and credentials professionally.
-
 ## Features
 
 - **Responsive Design**: The website is fully responsive, making it accessible on all devices, from desktops to mobile phones.
@@ -23,8 +19,6 @@ This project is a personal portfolio website built using Flask for the backend a
 
 ### Prerequisites
 
-Before you begin, ensure you have the following installed:
-
 - [Node.js](https://nodejs.org/)
 - [Python](https://www.python.org/)
 - [Flask](https://flask.palletsprojects.com/)
@@ -33,7 +27,6 @@ Before you begin, ensure you have the following installed:
 ### Installation
 
 1. **Clone the repository:**
-
    ```bash
    git clone https://github.com/your-username/Flask-React-Portfolio.git
    cd Flask-React-Portfolio
@@ -58,30 +51,6 @@ Before you begin, ensure you have the following installed:
 4. **Access the website**
     Flask API: http://localhost:5000
     React Frontend: http://localhost:3000
-
-## File Structure
-Flask-React-Portfolio/
-│
-├── backend/              # Flask API backend
-│   ├── app.py            # Flask application setup
-│   ├── templates/        # HTML templates
-│   └── static/           # Static files (CSS, JS)
-│
-├── frontend/             # React frontend
-│   ├── src/              # React source files
-│   │   ├── components/   # Reusable React components
-│   │   ├── App.js        # Main App component
-│   │   ├── index.js      # React entry point
-│   │   ├── Header.js     # Header component
-│   │   ├── About.js      # About section
-│   │   ├── Projects.js   # Projects section
-│   │   ├── Resume.js     # Resume section
-│   │   ├── Photo.js      # Photo section
-│   ├── public/           # Public assets
-│   ├── package.json      # Node.js dependencies
-│   └── ...               # Other frontend configuration files
-│
-└── README.md             # Project documentation
 
 ## Usage
 Home: A brief introduction and bio.
